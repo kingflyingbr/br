@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Viaje com a King Flying. Pacotes exclusivos, destinos incríveis e atendimento personalizado.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>King Flying</title>
+</head>
+<body>
+  <header>
+    <h1>King Flying</h1>
+    <nav>
+      <a href="#formulario">Solicitar Cotação</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Bem-vindo à King Flying</h2>
+      <p>Sua agência de viagens personalizada.</p>
+    </section>
+    <section id="formulario">
+      <h3>Solicite sua Cotação</h3>
+      <form action="https://formsubmit.co/seuemail@exemplo.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://seunome.github.io/king-flying-site/obrigado.html">
+        <label>Nome: <input type="text" name="nome" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+        <label>Destino: <input type="text" name="destino" required></label>
+        <label>Data Ida: <input type="date" name="data_ida" required></label>
+        <label>Data Volta: <input type="date" name="data_volta" required></label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 King Flying. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

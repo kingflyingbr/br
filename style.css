@@ -1,0 +1,40 @@
+
+body {
+  font-family: sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+form {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form input, form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
